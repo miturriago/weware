@@ -7,7 +7,7 @@
 }
 
 .list{
-    width: 964px;
+    width: 60%;
     justify-content: space-between;
     margin-bottom: 111px;
 }
@@ -16,4 +16,27 @@
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 48.87px;
+}
+
+@media screen and (max-width: 800px) {
+    .clientMain{
+        margin-bottom: 10px;
+    }
+    .paragraph{
+        width: 90%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .title{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+
+    .list{
+        width: 80%;
+    }
 }

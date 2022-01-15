@@ -1,3 +1,21 @@
-.imageShadow{
-    filter: drop-shadow(10px 10px 5px grey);
+.imageShadow {
+  filter: drop-shadow(10px 10px 5px grey);
+}
+
+.resImage {
+  display: none;
+}
+∫
+.descriptionImage {
+  display: block∫;
+}
+
+@media screen and (max-width: 800px) {
+  .resImage {
+    display: block;
+  }
+
+  .descriptionImage {
+    display: none;
+  }
 }

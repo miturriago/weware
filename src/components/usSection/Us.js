@@ -1,21 +1,21 @@
 import "./style.css";
 import usSection1 from "../../assets/images/usSection1.svg";
 import usSection2 from "../../assets/images/usSection2.svg";
-import usSection3 from "../../assets/images/usSection3.svg";
 function Us() {
   return (
     <div className="usMain">
-      <div class=" usList grid grid-cols-2 gap-2 mx-auto">
-        <div className=" h-[451px]">
+      <div class=" usList grid sm:grid-cols-1 md:grid-cols-2 gap-2 mx-auto">
+        <div className=" h-[451px] ">
           <img
-            src={usSection1}
+            src={usSection2}
             alt=""
+            
             className="object-center image mx-auto "
             width="100%"
           ></img>
         </div>
 
-        <div className=" h-[451px] flex justify-items-end items-end containerTextRigth">
+        <div className=" h-[451px] flex justify-items-end items-end containerTextRigth sm:mx-auto ">
           <div className="my-auto  textBlock">
             <p className="usTitle text-darkBlue">Announcements</p>
             <p className="usText text-darkBlue">
@@ -25,8 +25,10 @@ function Us() {
             </p>
           </div>
         </div>
+      </div>
 
-        <div className=" h-[451px] flex justify-items-end items-end containerTextLeft">
+      <div class=" usList md:gap1 grid sm:grid-cols-1 md:grid-cols-2 grid flex sm:flex-col-reverse   gap-2 mx-auto">
+        <div className=" h-[451px]   flex justify-items-end items-end containerTextLeft sm:mx-auto  ">
           <div className="my-auto  textBlock">
             <p className="usTitle text-darkBlue">Wiki</p>
             <p className="usText text-darkBlue">
@@ -45,17 +47,19 @@ function Us() {
             width="100%"
           ></img>
         </div>
+      </div>
 
-        <div className="h-[451px]">
+      <div class=" usList grid sm:grid-cols-1 md:grid-cols-2  grid  gap-2 mx-auto">
+        <div className="h-[451px] sm:w-[100%]">
           <img
-            src={usSection2}
+            src={usSection1}
             alt=""
             className="object-center image mx-auto "
             width="100%"
           ></img>
         </div>
 
-        <div className=" h-[451px] flex justify-items-end items-end containerTextRigth">
+        <div className=" h-[451px] flex justify-items-end items-end containerTextRigth sm:mx-auto ">
           <div className="my-auto  textBlock">
             <p className="usTitle text-darkBlue">Team directory</p>
             <p className="usText text-darkBlue">
@@ -64,8 +68,10 @@ function Us() {
             </p>
           </div>
         </div>
+      </div>
 
-        <div className=" h-[451px]flex justify-items-end items-end containerTextLeft">
+      <div class=" usList grid sm:grid-cols-1 md:grid-cols-2 grid  gap-2 mx-auto">
+        <div className=" h-[451px]flex justify-items-end  containerTextLeft sm:mx-auto">
           <div className="my-auto  textBlock">
             <p className="usTitle text-darkBlue">Recognition</p>
             <p className="usText text-darkBlue">

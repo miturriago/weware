@@ -1,4 +1,5 @@
 import "./style.css"
+import icon from "../../assets/images/wewareIcon.svg"
 function Header() {
   return (
     <div className=" ">
@@ -8,8 +9,8 @@ function Header() {
             <a href="#">
               <span className="sr-only">Workflow</span>
               <img
-                className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                className="w-[100px] md:w-[200px] "
+                src={icon}
                 alt=""
               ></img>
             </a>
@@ -17,7 +18,7 @@ function Header() {
           <div className="-mr-2 -my-2 md:hidden">
             <button
               type="button"
-              className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              className="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-green hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green"
               aria-expanded="false"
             >
               <span className="sr-only">Open menu</span>

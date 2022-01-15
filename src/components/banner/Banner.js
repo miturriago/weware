@@ -2,22 +2,21 @@ import "./style.css";
 import image from "../../assets/images/banner.svg"
 function Banner() {
   return (
-    <div className="bannerMain mb-8 flex flex-col  justify-center">
+    <div className="bannerMain mb-8 flex mx-auto flex-col justify-center">
       <img
-      width="60%"
         src={image}
         alt=""
-        className="object-center mx-auto"
+        className="object-center mx-auto bannerImage"
       ></img>
-      <p className="mx-auto mb-8 text-darkBlue text">
+      <p className=" md:w-[682px] text-center mx-auto mb-8 text-darkBlue text">
         <strong>Weware means:</strong> Easy to find knowledge, content and
-        proceses. <br />
+        proceses.
         Announcements, team engagement, recognition and profiles. 🙌
       </p>
-      <div className="form mx-auto flex space-between">
+      <div className="form mx-auto flex space-between ">
         <input
           type="text"
-          className="focus:shadow border focus:border-green block w-full pl-4 bg-transparent sm:text-sm border-darkBlue bannerInput text-darkBlue rounded-md"
+          className=" input focus:shadow border focus:border-green block w-full pl-4 bg-transparent sm:text-sm border-darkBlue bannerInput text-darkBlue rounded-md"
           placeholder="Your email address"
         ></input>
 
