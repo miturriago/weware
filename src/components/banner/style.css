@@ -1,3 +1,20 @@
 .bannerMain{
-    background-color: red;
+    height: 90%;
+}
+
+.bannerInput{
+    font-size: 18px;
+}
+.form{
+    width: 30%;
+}
+
+.button{
+    width: 206px;
+    height: 56px;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 600;
 }

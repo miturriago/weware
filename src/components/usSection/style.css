@@ -1,0 +1,32 @@
+.usList{
+    width: 70%;
+}
+
+.containerTextRigth{
+    display: flex;
+    justify-content: right;
+}
+
+.containerTextLeft{
+    display: flex;
+    justify-content: left;
+}
+
+.usTitle{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 28.87px;
+}
+
+.usText{
+    font-size: 20px;
+}
+
+.image{
+    margin-top: -70px;
+}
+
+.textBlock{
+    width: 375px;
+    height: 198px;
+}

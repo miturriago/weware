@@ -1,7 +1,7 @@
 import "./style.css"
 function Header() {
   return (
-    <div className=" main">
+    <div className=" ">
       <div className=" mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center  border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -31,9 +31,9 @@ function Header() {
                 aria-hidden="true"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h16M4 18h16"
                 />
               </svg>
@@ -43,14 +43,14 @@ function Header() {
           <div className="hidden md:flex space-4 items-center justify-end md:flex-1 lg:w-0">
             <a
               href="#"
-              className="whitespace-nowrap mr-4 text-base font-medium text-gray-500 hover:text-gray-900"
+              className="whitespace-nowrap mr-4 text-darkBlue font-medium text-gray-500 hover:text-gray-900"
             >
               Comunity
             </a>
 
             <a
               href="#"
-              className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+              className="whitespace-nowrap text-darkBlue font-medium text-gray-500 hover:text-gray-900"
             >
               Blogs
             </a>

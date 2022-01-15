@@ -1,0 +1,19 @@
+.clientMain{
+    margin-bottom: 139px;
+}
+.paragraph{
+    width: 619px;
+    font-size: 18px;
+}
+
+.list{
+    width: 964px;
+    justify-content: space-between;
+    margin-bottom: 111px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 48.87px;
+}

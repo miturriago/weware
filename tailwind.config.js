@@ -7,8 +7,13 @@ module.exports = {
       current: 'currentColor',
       'white': '#ffffff',
       'green': '#2BE2A0',
-      'border-gray-300': '#E5E5E5'
+      'darkBlue': '#00004F',
+      'background': '#E5E5E5'
     },
+    fontFamily: {
+      'Konnect':['Konnect']
+    },
+    
   },
   plugins: [],
 };
